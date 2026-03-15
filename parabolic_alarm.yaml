@@ -87,6 +87,7 @@ blueprint:
       selector:
         color_temp:
           unit: kelvin
+          min: 1500
       default: 1500
       name: ☀️ Starting Kelvin
     target_kelvin_1:
@@ -94,6 +95,7 @@ blueprint:
       selector:
         color_temp:
           unit: kelvin
+          min: 1500
       default: 3000
       name: ☀️ Target Kelvin 1
     max_brightness_1:
@@ -121,6 +123,7 @@ blueprint:
       selector:
         color_temp:
           unit: kelvin
+          min: 1500
       default: 4000
       name: 🌗 Target Kelvin 2
     max_brightness_2:
@@ -148,6 +151,7 @@ blueprint:
       selector:
         color_temp:
           unit: kelvin
+          min: 1500
       default: 6500
       name: 🌑 Target Kelvin 3
     max_brightness_3:
