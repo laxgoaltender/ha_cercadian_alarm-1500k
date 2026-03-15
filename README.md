@@ -1,3 +1,7 @@
+Originally forked from [steku/ha_cercadian_alarm](https://github.com/steku/ha_cercadian_alarm). I created this fork becaused I have bulbs that can go all the way down to 1500 kelvin, and wanted to take advantage of that. Original README retained below.
+
+---
+
 ## Sunrise alarm with parabolic sunrise effect
 This package contains 2 components. The first component is a script that can be executed many times in series to change the rates of the 2 main settings, color temperature in kelvin and brightness. By running it many times in series you get get a more parabolic effect. I added this feature because I could visually detect changes in brightness more at lower values. Below is an example of this. You can see the points of which the values change. 
 

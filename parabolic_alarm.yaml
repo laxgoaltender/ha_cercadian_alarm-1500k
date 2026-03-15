@@ -87,7 +87,7 @@ blueprint:
       selector:
         color_temp:
           unit: kelvin
-      default: 2500
+      default: 1500
       name: ☀️ Starting Kelvin
     target_kelvin_1:
       description: Target Kelvin value (cold) for the end of the first run
@@ -176,7 +176,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://github.com/steku/ha_cercadian_alarm/blob/main/parabolic_alarm.yaml
+  source_url: https://github.com/laxgoaltender/ha_cercadian_alarm-1500k/blob/main/parabolic_alarm.yaml
 trigger:
   - trigger: time
     at:

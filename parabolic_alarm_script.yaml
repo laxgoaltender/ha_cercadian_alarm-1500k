@@ -1,9 +1,9 @@
 blueprint:
   name: Light Sunrise
-  author: steriku
+  author: steriku, laxgoaltender
   description: >
     Campanion Script to the parabolic alarm automation blueprint.
-  source_url: https://github.com/steku/ha_cercadian_alarm/blob/main/blueprint_parabolic_alarm_script.yaml
+  source_url: https://github.com/laxgoaltender/ha_cercadian_alarm-1500k/blob/main/parabolic_alarm_script.yaml
   domain: script
   homeassistant:
     min_version: 2024.9.0
@@ -22,7 +22,7 @@ fields:
     selector:
       color_temp:
         unit: kelvin
-        min: 2500
+        min: 1500
         max: 6500
     default: 2500
     name: Warmest Kelvin
